@@ -64,7 +64,7 @@ class Students(TimeStampedModel):
         ('other','Other')
 
     )
-    student_name = models.CharField(max_length=100)
+    student_name = models.CharField(max_length=100,db_index=True)
     roll_number = models.CharField(max_length=50, unique=True)
     date_of_birth = models.DateField(blank=True,null=True)
     gender = models.CharField(max_length=20,choices=GENDER_CHOICES,blank=False,null=False)
