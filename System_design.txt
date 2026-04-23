@@ -1,0 +1,21 @@
+Entities
+
+Students
+teacher
+classes
+Subjects
+Student
+
+
+1 Student can have many teacher
+1 teacher can teach to many Students
+M:M
+1 class can have many Students
+1 Student can be part one class 
+1:M
+
+1 class teacher have many class
+1 class has many teacher
+M : M 
+
+
